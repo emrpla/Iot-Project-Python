@@ -1,4 +1,4 @@
-# Authomatic food container for pets (Ptyhon)
+# Automatic food container for pets (Ptyhon)
 ## Necessary materials:
 - Raspberry Pi model B
 - Jumper cables
