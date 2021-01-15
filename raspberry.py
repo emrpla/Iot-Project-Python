@@ -55,17 +55,17 @@ time.sleep(2)
 while True:
     try:
         val = hx.get_weight(5) * -1
-        print "val: %s" % val
+        print ("val: %s") % val
         hx.power_down()
         hx.power_up()
         time.sleep(0.1)
         if val <= 100:
-          print "acilacak"
+          print ("acilacak")
           setAngle(90) #acik
           sleep(2)
         elif val > 100 :
           setAngle(25)
-          print "kapanacak"
+          print ("kapanacak")
           sleep(2)
         time.sleep(5) 
     except (KeyboardInterrupt, SystemExit):
